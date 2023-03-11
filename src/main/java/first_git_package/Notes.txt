@@ -1,7 +1,7 @@
 *****GIT DAY1*****
 1. Create a project
 2. Create a GITHUB REPOSITORY
-    *go to github
+    *go to GitHub
     *Repositories>Create New Repository> first_git_project
 3. Create a FIRST COMMIT for the First time
 ONLY ONCE    *git init
@@ -10,13 +10,13 @@ EVERY TIME    *git commit -m "first commit"
 ONLY ONCE    *git branch -M main
 ONLY ONCE    *git remote add origin https://github.com/abayramus/first_git_project.git
 ONLY ONCE    *git push -u origin main
-    *****Then your code should be pushed to github. REFRESH YOUR PAGE TO SEE THE CODE
+    *****Then your code should be pushed to GitHub. REFRESH YOUR PAGE TO SEE THE CODE
 
 NOTE: git status    ->   This is our friend. This can be used anytime to see the progress
 
 4. Create a new SECOND COMMIT
     *Create a new java class under first_git_package: MySecondClass
-    *Create a new commit and push the code to github
+    *Create a new commit and push the code to GitHub
         * git add .
         * git commit -m "added my second java class"
         * git push
@@ -31,7 +31,7 @@ NOTE: git status    ->   This is our friend. This can be used anytime to see the
 
 
 6. GIT PULL
-    *git pull is used to get the code from github
+    *git pull is used to get the code from GitHub
     *git pull = git fetch + git merge
         NOTE: if git pull trows error then use:
         git fetch
