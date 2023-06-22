@@ -1,11 +1,10 @@
-package com.project.schoolmanagment.contoller;
+package com.project.schoolmanagment.controller;
 
 import com.project.schoolmanagment.entity.enums.RoleType;
 import com.project.schoolmanagment.payload.request.LoginRequest;
 import com.project.schoolmanagment.payload.response.AuthResponse;
 import com.project.schoolmanagment.security.jwt.JwtUtils;
 import com.project.schoolmanagment.security.service.UserDetailsImpl;
-import com.project.schoolmanagment.security.service.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

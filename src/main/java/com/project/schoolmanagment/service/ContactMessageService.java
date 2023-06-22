@@ -50,7 +50,7 @@ public class ContactMessageService {
 
 
 	public Page<ContactMessageResponse> getAll(int page,int size, String sort, String type){
-		// in this solution type prop. should be instance of Direction
+		// in this solution type prop. should be an instance of Direction
 		// method signature -> getAll(int page,int size, String sort, Direction type)
 		//Pageable myPageable  = PageRequest.of(page,size,Sort.by(type,sort));
 
