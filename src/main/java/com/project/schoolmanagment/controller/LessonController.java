@@ -1,4 +1,4 @@
-package com.project.schoolmanagment.contoller;
+package com.project.schoolmanagment.controller;
 
 import com.project.schoolmanagment.entity.concretes.Lesson;
 import com.project.schoolmanagment.payload.request.LessonRequest;
